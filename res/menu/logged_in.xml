@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<!--     <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/> -->
+    
+  <!--   	<item 
+	    android:id="@+id/search"
+	    android:title="@string/search_title"
+	    android:showAsAction="always"
+	    android:icon="@drawable/ic_menu_search"
+	    android:actionViewClass="android.widget.SearchView">
+    	    
+    	</item> -->
+
+    	
+<!--     	<item
+    	    android:id="@+id/menu_similar_users"
+    	    android:title="@string/similar_users"
+    	    android:showAsAction="always"
+    	    android:icon="@drawable/ic_menu_allfriends"
+    	    >
+    	    
+    	   </item>
+    	<item
+    	    android:id="@+id/menu_select_tag"
+    	    android:title="@string/select_tag"
+    	    android:showAsAction="always"
+    	    android:icon="@drawable/ic_menu_tag">
+    	    android:onClick="tagClick"
+    	    </item>
+    	     -->
+    	
+ </menu>

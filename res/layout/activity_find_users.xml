@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".FindUsers"
+    android:background="@drawable/background_selector"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="20sp"
+        android:text="@string/pickSong" />
+    <Spinner 
+        android:id="@+id/song_spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:id="@+id/assign_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/assign_tag"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginBottom="10dp"
+         />
+    <EditText 
+        android:id="@+id/inputted_tag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords"
+        android:hint="@string/assign_tag_hint"
+        android:padding="10dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/edittext_shape"
+        />
+    
+    <Button
+        android:id="@+id/assigned_tag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/confirm_tag"
+        android:textColor="@color/text"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:background="@drawable/button_selector"
+        android:onClick="goFindUsers"
+        />
+
+</LinearLayout>

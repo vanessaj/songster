@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SongSter</string>
+    <string name="app_name_short"></string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="guestlogin">Guest Login</string>
+    <string name="login">Login</string>
+    <string name="title_activity_logged_in">LoggedIn</string>
+    <string name="logged">View suggestions by selecting a tag:</string>
+    <string name="tagname">OR search by song name or tag:</string>
+    <string name="app_label">Song Search</string>
+    <string name="search_title">Search (song or artist)</string>
+    <string name="search_hint">Ex: Happy</string>
+    <string name="search">Search</string>
+
+    <color name="blue">#79CDCD</color>
+    <color name="text">#EEEEEE</color>
+    <color name="buttonLight">#808080</color>
+    <color name="buttonDark">#636363</color>
+    <color name="backgroundLight">#8CCDFF</color>
+    <color name="backgroundDark">#5CB8FF</color>
+    <color name="blueLight">#568FE8</color>
+    <color name="blueDark">#245CB5</color>
+
+    <string name="music_description">Music logo of music notes</string>
+
+    <color name="black">#000000</color>
+    <color name="grey_blue">#6D8280</color>
+    <color name="white">#FFFFFF</color>
+
+    <string name="title_activity_search_results">SearchResults</string>
+    <string name="similar_users">Similar users</string>
+    <string name="select_tag">Select a tag</string>
+    <string name="get_started">Pick one of the options:</string>
+    <string name="optionUsers">Find similar users</string>
+    <string name="optionTagSelect">Song suggestions</string>
+    <string name="optionSearch">Find a song</string>
+    <string name="title_activity_pick_tag">PickTag</string>
+    <string name="inputATag">Search by tag:</string>
+    <string name="inputTagHint">Ex: Happy</string>
+    <string name="title_activity_find_users">FindUsers</string>
+    <string name="pickSong">Select a song:</string>
+    <string name="tagAssign">Pick a tag for this song:</string>
+
+    <string-array name="song_array">
+        <item>Someone Like You - Adele</item>
+        <item>Set Fire to the Rain - Adele</item>
+        <item>Dream On - Aerosmith</item>
+        <item>I Don\'t Want to Miss a Thing - Aerosmith</item>
+        <item>You Oughta Know - Alanis Morissette</item>
+        <item>No One - Alicia Keys</item>
+        <item>Everybody - Backstreet Boys</item>
+        <item>Take My Breath Away - Berlin</item>
+        <item>We Didn\'t Start the Fire - Billy Joel</item>
+        <item>Blaze of Glory - Bon Jovi</item>
+        <item>You Give Love a Bad Name - Bon Jovi</item>
+        <item>Total Eclipse of the Heart - Bonnie Tyler</item>
+        <item>I Do it For You - Bryan Adams</item>
+        <item>Heaven - Bryan Adams</item>
+        <item>Call Me Maybe - Carly Rae Jepsen</item>
+        <item>My Heart Will Go On - Celine Dion</item>
+        <item>What a Girl Wants - Christina Aguilera</item>
+        <item>Viva la Vida - Coldplay</item>
+        <item>With Arms Wide Open - Creed</item>
+        <item>Independent Woman - Destiny\'s Child</item>
+        <item>Come on Eileen - Dexys Midnight Runners</item>
+        <item>Candle in the Wind - Elton John</item>
+        <item>Lose Yourself - Eminem</item>
+        <item>Sweet Dreams (Are Made of This) - Eurythmics</item>
+        <item>Sweet Child O\' Mine - Guns N\' Roses</item>
+        <item>You\'re Beautiful - James Blunt</item>
+        <item>Hard Knock Life - Jay-Z</item>
+        <item>Empire State of Mind - Jay-Z and Alicia Keys</item>
+        <item>Ring of Fire - Johnny Cash</item>
+        <item>My Love - Justin Timberlake</item>
+        <item>Stronger - Kanye West</item>
+        <item>Firework - Katy Perry</item>
+        <item>Stronger - Kelly Clarkson</item>
+        <item>Tik Tok - Ke$ha</item>
+        <item>Jump - Kris Kross</item>
+        <item>Just Dance - Lady Gaga</item>
+        <item>Bleeding Love - Leona Lewis</item>
+        <item>Long Hot Summer - Keith Urban</item>
+        <item>Drunk On You - Luke Bryan</item>
+        <item>Can\'t Hold Us - Macklemore and Ryan Lewis</item>
+        <item>We Belong Together - Mariah Carey</item>
+        <item>Black or White - Michael Jackson</item>
+        <item>Billie Jean - Michael Jackson</item>
+        <item>Thriller - Michael Jackson</item>
+        <item>Smells Like Teen Spirit - Nirvana</item>
+        <item>Hey Ya! - OutKast</item>
+        <item>Fireflies - Owl City</item>
+        <item>Wish You Were Here - Pink Floyd</item>
+        <item>I\'m Gonna Be (500 Miles) - Proclaimers</item>
+        <item>Crazy Little Thing Called Love - Queen</item>
+        <item>Losing My Religion - R.E.M.</item>
+        <item>Radioactive - Imagine Dragons</item>
+        <item>Under the Bridge - Red Hot Chili Peppers</item>
+        <item>Take a Bow - Rihanna</item>
+        <item>Stay - Rihanna</item>
+        <item>Truly Madly Deeply - Savage Garden</item>
+        <item>Temperature - Sean Paul</item>
+        <item>All I Wanna Do - Sheryl Crow</item>
+        <item>Wannabe - Spice Girls</item>
+        <item>Whatever You Like - T.I.</item>
+        <item>Downtown - The Band Perry</item>
+        <item>Walk Like an Egyptian - The Bangles</item>
+        <item>Yellow Submarine - The Beatles</item>
+        <item>Every Breath You Take - The Police</item>
+        <item>Live Like You Were Dyin - Tim McGraw</item>
+        <item>No Scrubs - TLC</item>
+        <item>With or Without You - U2</item>
+        <item>Beautiful Day - U2</item>
+        <item>U Got It Bad - Usher</item>
+        <item>Jump - Van Halen</item>
+        <item>I Will Always Love You - Whitney Houston</item>
+    </string-array>
+
+    <string name="buttonUsers">Peoples1\' heads</string>
+    <string name="buttonTag">A tag</string>
+    <string name="buttonSearch">magnifying glass to search</string>
+    <string name="pickTag">OR find a tag by category:</string>
+    <string name="title_activity_search_song">SearchSong</string>
+    <string name="search_song">Search a song:</string>
+    <string name="song_input_hint">Ex: Song Name</string>
+    <string name="song_search_input_button">Search</string>
+    <string name="assign_tag">Pick a word that describes the song:</string>
+    <string name="assign_tag_hint">Ex: Happy</string>
+    <string name="confirm_tag">Go</string>
+    <string name="title_activity_search_results_tag">SearchResultsTag</string>
+    <string name="title_activity_results_search">ResultsSearch</string>
+    <string name="tagDecade">Decade</string>
+    <string name="tagGenre">Genre</string>
+    <string name="tagMood">Mood</string>
+    <string name="tagDescription">Description</string>
+    <string name="title_activity_decade_tag">DecadeTag</string>
+    <string name="title_activity_genre_tag">GenreTag</string>
+    <string name="title_activity_mood_tag">MoodTag</string>
+    <string name="title_activity_description_tag">DescriptionTag</string>
+    <string name="pickDecadeSpinner">Pick a decade:</string>
+    <string name="pickGenreSpinner">Pick a genre:</string>
+    <string name="pickMoodSpinner">What mood are you in?</string>
+    <string name="pickDescriptionSpinner">Pick a word:</string>
+
+    <string-array name="tagsDecade">
+        <item>1960s</item>
+        <item>1970s</item>
+        <item>1980s</item>
+        <item>1990s</item>
+        <item>2000s</item>
+        <item>2010s</item>
+    </string-array>
+    <string-array name="tagsGenre">
+        <item>Acoustic</item>
+        <item>Alt Hip Hop</item>
+        <item>Alt Rock</item>
+        <item>Classic Rock</item>
+        <item>Country</item>
+        <item>Cover</item>
+        <item>Dance</item>
+        <item>Electronic</item>
+        <item>Funk</item>
+        <item>Grunge</item>
+        <item>Hard Rock</item>
+        <item>Hip Hop</item>
+        <item>Karaoke</item>
+        <item>New Wave</item>
+        <item>Old School</item>
+        <item>Pop</item>
+        <item>R&amp;B</item>
+        <item>Rap</item>
+        <item>Rock</item>
+        <item>Soft Rock</item>
+        <item>Soul</item>
+        <item>Soundtrack</item>
+        <item>Synthpop</item>
+        <item>Talk</item>
+        <item>Techno</item>
+    </string-array>
+    <string-array name="tagsMood">
+        <item>Angry</item>
+        <item>Cheery</item>
+        <item>Cool</item>
+        <item>Crazy</item>
+        <item>Depressing</item>
+        <item>Emotional</item>
+        <item>Energetic</item>
+        <item>Gangster</item>
+        <item>Lonely</item>
+        <item>Lovesick</item>
+        <item>Moody</item>
+        <item>Sad</item>
+        <item>Scared</item>
+        <item>Upbeat</item>
+        <item>Upset</item>
+        <item>Happy</item>
+    </string-array>
+    <string-array name="tagsDescription">
+        <item>Anarchy</item>
+        <item>Ballad</item>
+        <item>Beach</item>
+        <item>Boy Band</item>
+        <item>Break up</item>
+        <item>Club</item>
+        <item>Death</item>
+        <item>Dramatic</item>
+        <item>Driving</item>
+        <item>Empowering</item>
+        <item>Epic</item>
+        <item>Equality</item>
+        <item>Fast</item>
+        <item>Fitness</item>
+        <item>Folk</item>
+        <item>Freedom</item>
+        <item>Fun</item>
+        <item>Girly</item>
+        <item>Halloween</item>
+        <item>Heartbreak</item>
+        <item>Hype</item>
+        <item>Inspiration</item>
+        <item>Intense</item>
+        <item>Jumping</item>
+        <item>King of Pop</item>
+        <item>Loud</item>
+        <item>Love</item>
+        <item>Lyrical</item>
+        <item>Party</item>
+        <item>Powerful</item>
+        <item>Pump up</item>
+        <item>Rebel</item>
+        <item>Relax</item>
+        <item>Road Trip</item>
+        <item>Scottish</item>
+        <item>Silly</item>
+        <item>Slow</item>
+        <item>Spiritual</item>
+        <item>Summer</item>
+        <item>Titanic</item>
+        <item>Young</item>
+        <item>Wedding</item>
+        <item>Workout</item>
+    </string-array>
+
+    <string name="go">Go</string>
+    <string name="matrixDisplay">View Matrix</string>
+    <string name="checkMatrixDims">Check Matrix Dims</string>
+    <string name="title_activity_matrix_display">MatrixDisplay</string>
+    <string name="title_activity_searchable">SearchableActivity</string>
+    <string name="search_bar_hint">Ex: The Beatles</string>
+    <string name="logout">Logout</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_add_song">Add Song</string>
+    <string name="menu_logout">Logout</string>
+    <string name="title_activity_add_song">AddSong</string>
+    <string name="songname">Song name</string>
+    <string name="artistname">Artist</string>
+    <string name="add_song_to_db">Add to Database</string>
+    <string name="title_activity_add_tag">AddTag</string>
+    <string name="add_tag">Add tag</string>
+    
+    <string name="spinner_prompt">Click to select</string>
+
+</resources>
